@@ -15,6 +15,9 @@
   }
   &__heading {
     font-weight: normal;
+    @media screen and (max-width: $bp_01) {
+      font-size: 26px;
+    }
   }
   &__mark {
     margin-left: auto;
@@ -23,6 +26,9 @@
     display: block;
     font-size: 30px;
     line-height: 1;
+    @media screen and (max-width: $bp_01) {
+      padding-top:  4px;
+    }
     :hover {
       font-size: 20px;
       transition: transform linear 0.8s;
