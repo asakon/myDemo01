@@ -2,10 +2,14 @@
   padding-top: $unit_standard;
   &__col {
     margin: 0 auto;
-    width: $width_col_base;
+    padding: 0 $unit_standard--sub;
+    max-width: $width_col_base;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media screen and (max-width: $bp_01) {
+      flex-wrap: wrap;
+    }
   }
   &__item {
     width: 30%;

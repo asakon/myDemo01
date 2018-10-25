@@ -5,10 +5,13 @@
   font-family: "M PLUS Rounded 1c", sans-serif;
   &__col {
     margin: 0 auto;
-    width: $width_col_base;
+    max-width: $width_col_base;
     display: flex;
     justify-content: center;
     color: #fff;
+    @media screen and (max-width: $bp_01) {
+      padding: 0 $unit_standard--sub;
+    }
   }
   &__heading {
     font-weight: normal;
