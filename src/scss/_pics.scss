@@ -10,6 +10,10 @@
     width: 30%;
     margin-bottom: 36px;
     line-height: 0;
+    &:nth-child(3n+2):last-child {
+      margin-right: auto;
+      margin-left: calc(10% / 2);
+    }
   }
   &__img {
     width: 100%;
