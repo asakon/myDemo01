@@ -1,5 +1,5 @@
 .Pics {
-  padding-top: 36px;
+  padding-top: $unit_standard;
   &__col {
     margin: 0 auto;
     width: $width_col_base;
@@ -9,7 +9,7 @@
   }
   &__item {
     width: 30%;
-    margin-bottom: 36px;
+    margin-bottom: $unit_standard;
     line-height: 0;
     &:nth-child(3n+2):last-child {
       margin-right: auto;
