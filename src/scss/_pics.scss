@@ -1,8 +1,8 @@
 .Pics {
-  padding-top: 40px;
+  padding-top: 36px;
   &__col {
     margin: 0 auto;
-    width: 680px;
+    width: $width_col_base;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
