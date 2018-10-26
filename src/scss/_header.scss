@@ -17,6 +17,9 @@
     @media screen and (max-width: $bp_01) {
       font-size: 26px;
     }
+    @media screen and (max-width: $bp_03) {
+      font-size: 18px;
+    }
   }
   &__mark {
     margin-left: auto;
@@ -28,10 +31,21 @@
     @media screen and (max-width: $bp_01) {
       padding-top:  4px;
     }
+    @media screen and (max-width: $bp_03) {
+      padding-top: 2px;
+      font-size: 24px;
+    }
     :hover {
       transition: all linear 0.8s;
-      transform: translate(100px, 10px);
+      transform: translate(60px, 10px);
       color: #d2d1cd;
+      @media screen and (max-width: $bp_02) {
+        transform: translate(40px, 10px);
+      }
+      @media screen and (max-width: $bp_03) {
+        transition: all linear 0.6s;
+        transform: translate(20px, 10px);
+      }
     }
   }
 }

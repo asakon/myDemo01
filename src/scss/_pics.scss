@@ -1,5 +1,8 @@
 .Pics {
   padding-top: $unit_standard;
+  @media screen and (max-width: $bp_03) {
+    padding-top: $unit_standard--half;
+  }
   &__col {
     margin: 0 auto;
     padding: 0 $unit_standard--sub;
@@ -16,7 +19,12 @@
     margin-bottom: $unit_standard;
     line-height: 0;
     @media screen and (max-width: $bp_02) {
+      margin-bottom: $unit_standard--half;
       width: 48%;
+    }
+    @media screen and (max-width: $bp_03) {
+      margin-bottom: $unit_standard;
+      width: 100%;
     }
     &:nth-child(3n+2):last-child {
       margin-right: auto;
