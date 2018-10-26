@@ -29,9 +29,9 @@
       padding-top:  4px;
     }
     :hover {
-      font-size: 20px;
-      transition: transform linear 0.8s;
-      transform: translate(300px, 60px);
+      transition: all linear 0.8s;
+      transform: translate(100px, 10px);
+      color: #d2d1cd;
     }
   }
 }
